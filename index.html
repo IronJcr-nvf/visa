@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فيزا مجانية</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin-top: 10%;
+    }
+
+    img {
+      width: 300px;
+      border: 2px solid #000;
+      border-radius: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #hacked-message {
+      font-size: 2em;
+      color: red;
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>احصل على فرصة فيزا مجانية لإيطاليا!</h1>
+  <img src="https://via.placeholder.com/300x200?text=فيزا+مجانية" alt="Visa Free Image">
+  <br>
+  <button onclick="showHackedMessage()">انقر هنا للمشاركة</button>
+  <div id="hacked-message">تم تهكير هاتفك بنجاح! 📱</div>
+
+  <script>
+    function showHackedMessage() {
+      document.getElementById('hacked-message').style.display = 'block';
+      setTimeout(() => {
+        alert('😂 هذي حالة اللي مزال يأمن بالغولة ! تم تهكير هاتفك بنجاح ');
+
+      }, 2000); // 3 ثواني قبل المزاح
+    }
+  </script>
+</body>
+
+</html>
